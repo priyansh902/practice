@@ -13,7 +13,7 @@ public class nn {
 
     private static final String username =  "root";
 
-    private static final String password = "9027707502";
+    private static final String password = "*********";
 
     
 
@@ -26,7 +26,7 @@ public class nn {
             System.out.println(e.getMessage());
         }
 
-        // try {    USING SIMPLE STATEMENT 
+        // try {    USING SIMPLE STATEMENT  QUERY FOR INSERTING DATA
         //     Connection connection = DriverManager.getConnection(url, username, password);
         //     Statement statement = connection.createStatement();
 
@@ -60,7 +60,7 @@ public class nn {
         // }
        
 
-        // try {
+        // try {   INSERTING DATA BY PREPARED STATEMENT
         //     Connection connection = DriverManager.getConnection(url, username, password);
         //     String query = "INSERT INTO students(name, age,marks )VALUES(?,?,?)";
         //     PreparedStatement preparedStatement = connection.prepareStatement(query);
