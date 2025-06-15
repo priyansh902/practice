@@ -11,7 +11,7 @@ public class tran {
 
     private static final String username =  "root";
 
-    private static final String password = "9027707502";
+    private static final String password = "*********";
 
     public static void main(String[] args) {
           try {
