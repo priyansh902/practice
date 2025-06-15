@@ -98,7 +98,11 @@ public class nn {
                 }
             }
             int [] arr = preparedStatement.executeBatch();
+            preparedStatement.close();
+            scanner.close();
+            connection.close();
         }
+
 
 
          catch(SQLException e){
